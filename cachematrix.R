@@ -1,3 +1,5 @@
+# These functions take a matrix and cache its inverse since repeated computation of a matrix inverse as time/memory intensive.
+
 # makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
         invmatrix <- NULL              ## the inv matrix
